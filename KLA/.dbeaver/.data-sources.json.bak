@@ -1,0 +1,36 @@
+{
+	"folders": {},
+	"connections": {
+		"snowflake_jdbc-17bdab5a739-5b68b7444ba2ffe9": {
+			"provider": "snowflake",
+			"driver": "snowflake_jdbc",
+			"name": "SALES",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "tn31516.ap-south-1.aws.snowflakecomputing.com",
+				"port": "443",
+				"server": "COMPUTE_WH",
+				"database": "SALES",
+				"url": "jdbc:snowflake://tn31516.ap-south-1.aws.snowflakecomputing.com:443/?db=SALES&warehouse=COMPUTE_WH&role=SYSADMIN",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-role@": "SYSADMIN",
+					"@dbeaver-authenticator@": "snowflake"
+				},
+				"handlers": {}
+			}
+		}
+	},
+	"connection-types": {
+		"dev": {
+			"name": "Development",
+			"color": "255,255,255",
+			"description": "Regular development database",
+			"auto-commit": true,
+			"confirm-execute": false,
+			"confirm-data-change": false
+		}
+	}
+}
