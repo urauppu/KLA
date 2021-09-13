@@ -1,1 +1,1 @@
-CREATE OR REPLACE VIEW sales.landingzone.v_sales_trans AS SELECT * FROM sales.LANDINGZONE.sales_trans;
+CREATE OR REPLACE VIEW sales.landingzone.v_sales_trans_v1 AS SELECT * FROM sales.LANDINGZONE.sales_trans;
