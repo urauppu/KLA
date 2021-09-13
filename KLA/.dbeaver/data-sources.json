@@ -18,8 +18,7 @@
 				"provider-properties": {
 					"@dbeaver-role@": "SYSADMIN",
 					"@dbeaver-authenticator@": "snowflake"
-				},
-				"handlers": {}
+				}
 			}
 		},
 		"snowflake_jdbc-17bdab6aeb4-7a18d451eb79cd4": {
@@ -39,8 +38,7 @@
 				"provider-properties": {
 					"@dbeaver-role@": "SYSADMIN",
 					"@dbeaver-authenticator@": "snowflake"
-				},
-				"handlers": {}
+				}
 			}
 		},
 		"snowflake_jdbc-17bdab7926f-59a80bc9460d5edf": {
@@ -60,8 +58,7 @@
 				"provider-properties": {
 					"@dbeaver-role@": "SYSADMIN",
 					"@dbeaver-authenticator@": "snowflake"
-				},
-				"handlers": {}
+				}
 			}
 		}
 	},

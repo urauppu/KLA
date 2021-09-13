@@ -4,7 +4,7 @@
 		"snowflake_jdbc-17bdab5a739-5b68b7444ba2ffe9": {
 			"provider": "snowflake",
 			"driver": "snowflake_jdbc",
-			"name": "SALES",
+			"name": "Dev",
 			"save-password": true,
 			"show-system-objects": true,
 			"read-only": false,
@@ -14,6 +14,48 @@
 				"server": "COMPUTE_WH",
 				"database": "SALES",
 				"url": "jdbc:snowflake://tn31516.ap-south-1.aws.snowflakecomputing.com:443/?db=SALES&warehouse=COMPUTE_WH&role=SYSADMIN",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-role@": "SYSADMIN",
+					"@dbeaver-authenticator@": "snowflake"
+				},
+				"handlers": {}
+			}
+		},
+		"snowflake_jdbc-17bdab6aeb4-7a18d451eb79cd4": {
+			"provider": "snowflake",
+			"driver": "snowflake_jdbc",
+			"name": "QA",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "eb88205.ap-south-1.aws.snowflakecomputing.com",
+				"port": "443",
+				"server": "COMPUTE_WH",
+				"database": "SALES",
+				"url": "jdbc:snowflake://eb88205.ap-south-1.aws.snowflakecomputing.com:443/?db=SALES&warehouse=COMPUTE_WH&role=SYSADMIN",
+				"type": "dev",
+				"provider-properties": {
+					"@dbeaver-role@": "SYSADMIN",
+					"@dbeaver-authenticator@": "snowflake"
+				},
+				"handlers": {}
+			}
+		},
+		"snowflake_jdbc-17bdab7926f-59a80bc9460d5edf": {
+			"provider": "snowflake",
+			"driver": "snowflake_jdbc",
+			"name": "Prod",
+			"save-password": true,
+			"show-system-objects": true,
+			"read-only": false,
+			"configuration": {
+				"host": "ba55945.ap-south-1.aws.snowflakecomputing.com",
+				"port": "443",
+				"server": "COMPUTE_WH",
+				"database": "SALES",
+				"url": "jdbc:snowflake://ba55945.ap-south-1.aws.snowflakecomputing.com:443/?db=SALES&warehouse=COMPUTE_WH&role=SYSADMIN",
 				"type": "dev",
 				"provider-properties": {
 					"@dbeaver-role@": "SYSADMIN",

@@ -1,1 +1,1 @@
-{"resources":{"Scripts/Script.sql":{"sql-editor-data-source-id":"snowflake_jdbc-17bdab5a739-5b68b7444ba2ffe9","default-datasource":"snowflake_jdbc-17bdab5a739-5b68b7444ba2ffe9","default-catalog":"SALES"}}}
+{"resources":{"Scripts/v_sales_trans.sql":{"sql-editor-data-source-id":"snowflake_jdbc-17bdab5a739-5b68b7444ba2ffe9","default-datasource":"snowflake_jdbc-17bdab5a739-5b68b7444ba2ffe9","default-catalog":"SALES"}}}
